@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+#buttons {
+    text-align: center;
+}
+
+#playerField, #computerField {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;    
+}
+
+#computerField div{
+    font-size: 150px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#playerField div {
+    font-size: 150px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.winGreen {
+    background-color: lightgreen;
+}
+
+.loseRed {
+    background-color: lightcoral;
+}
+
+.drawWhite {
+    background-color: white;
+}

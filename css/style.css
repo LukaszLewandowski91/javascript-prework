@@ -1,3 +1,39 @@
+h1 {
+  text-align: center;
+}
 
+#buttons {
+  text-align: center;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+#playerField, #computerField {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+#computerField div {
+  font-size: 150px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+#playerField div {
+  font-size: 150px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.winGreen {
+  background-color: lightgreen;
+}
+
+.loseRed {
+  background-color: lightcoral;
+}
+
+.drawWhite {
+  background-color: white;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGtCQUFBO0FDQ0o7O0FEQ0E7RUFDSSxrQkFBQTtBQ0VKOztBRENBO0VBQ0ksY0FBQTtFQUNBLFlBQUE7RUFDQSxhQUFBO0FDRUo7O0FEQ0E7RUFDSSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7QUNFSjs7QURDQTtFQUNJLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtBQ0VKOztBRENBO0VBQ0ksNEJBQUE7QUNFSjs7QURDQTtFQUNJLDRCQUFBO0FDRUo7O0FEQ0E7RUFDSSx1QkFBQTtBQ0VKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
