@@ -1,8 +1,12 @@
-h1 {
+h1, h3, h4 {
     text-align: center;
 }
 #buttons {
     text-align: center;
+}
+
+button {
+    width: 150px;
 }
 
 #playerField, #computerField {
@@ -33,4 +37,18 @@ h1 {
 
 .drawWhite {
     background-color: white;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td, th {
+    width: 100px;
+}
+
+tr, td, th {
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid rgba(black, .175);
 }

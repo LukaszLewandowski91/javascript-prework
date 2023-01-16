@@ -15,25 +15,59 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container py-5">
 		<div id="buttons" class="row">
-			<div class="col-md-4 col-sm-12">
+			<div class="col-md-4 col-sm-12 py-1">
 				<button type="button" id="play-rock" class="btn btn-primary"><i class="fa-solid fa-hand-back-fist"></i> &nbsp; Kamień</button>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-md-4 col-sm-12 py-1">
 				<button type="button" id="play-paper" class="btn btn-success"><i class="fa-solid fa-hand"></i> &nbsp; Papier</button>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-md-4 col-sm-12 py-1">
 				<button type="button" id="play-scissors" class="btn btn-warning"><i class="fa-solid fa-hand-scissors"></i> &nbsp; Nożyce</button>
 			</div>
 		</div>
-		<div class="container py-5">
-			<div class="row" id="playFields">
-				<div class="col-md-6 col-sm-12 border border-primary border-3" id="playerField"></div>
-				<div class="col-md-6 col-sm-12 border border-danger border-3" id="computerField"></div>
+	</div>
+	<div class="container py-5">
+		<div class="row" id="playFields">
+			<div class="col-md-6 col-sm-12 border border-primary border-3" id="playerField"></div>
+			<div class="col-md-6 col-sm-12 border border-danger border-3" id="computerField"></div>
+		</div>
+	</div>
+	<div id="messages"></div>
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<h4>Historia gry</h4>
+				<table class="border border-1">
+					<thead class="border border-1">
+						<tr>
+							<th scope="col">Gracz</th>
+							<th scope="col">Komputer</th>
+						</tr>
+					</thead>
+					<tbody id="game-history">
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<h3>Wynik</h3>
+				<table class="border border-1">
+					<thead class="border border-1">
+						<tr>
+							<th scope="col">Gracz</th>
+							<th scope="col">Komputer</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="player">0</td>
+							<td id="computer">0</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
-		<div id="messages"></div>
 	</div>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
