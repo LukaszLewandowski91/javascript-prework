@@ -1,54 +1,60 @@
-h1, h3, h4 {
-    text-align: center;
+h1,
+h3,
+h4 {
+  text-align: center;
 }
 #buttons {
-    text-align: center;
+  text-align: center;
 }
 
 button {
-    width: 150px;
+  width: 150px;
 }
 
-#playerField, #computerField {
-    margin: 0 auto;
-    width: 300px;
-    height: 300px;    
+#playerField,
+#computerField {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
 }
 
-#computerField div{
-    font-size: 150px;
-    text-align: center;
-    margin: 30px auto;
+#computerField div {
+  font-size: 150px;
+  text-align: center;
+  margin: 30px auto;
 }
 
 #playerField div {
-    font-size: 150px;
-    text-align: center;
-    margin: 30px auto;
+  font-size: 150px;
+  text-align: center;
+  margin: 30px auto;
 }
 
 .winGreen {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 .loseRed {
-    background-color: lightcoral;
+  background-color: lightcoral;
 }
 
 .drawWhite {
-    background-color: white;
+  background-color: white;
 }
 
 table {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
-td, th {
-    width: 100px;
+td,
+th {
+  width: 100px;
 }
 
-tr, td, th {
-    padding: 5px 10px;
-    text-align: center;
-    border: 1px solid rgba(black, .175);
+tr,
+td,
+th {
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid rgba(black, 0.175);
 }
