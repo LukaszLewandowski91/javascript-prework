@@ -1,9 +1,0 @@
-{
-  "root": true,
-  "extends": ["html-validate:recommended"],
-  "rules": {
-    "some-rules": "severity",
-    "other-rule": ["severity", { "option": true }]
-  },
-  "elements": ["html5"]
-}
