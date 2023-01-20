@@ -13,22 +13,24 @@
     playGame(2);
     addFigurePlayer('<i class="fa-solid fa-hand"></i>');
   });
-  document.getElementById("play-scissors").addEventListener("click", function () {
-    playGame(3);
-    addFigurePlayer('<i class="fa-solid fa-hand-scissors"></i>');
-  });
+  document
+    .getElementById("play-scissors")
+    .addEventListener("click", function () {
+      playGame(3);
+      addFigurePlayer('<i class="fa-solid fa-hand-scissors"></i>');
+    });
 
   const addFigurePlayer = function (playFigure) {
     let div = document.createElement("div");
     div.innerHTML = playFigure;
     document.getElementById("playerField").appendChild(div);
-  }
+  };
 
   const addFigureComputer = function (playFigure) {
     let div = document.createElement("div");
     div.innerHTML = playFigure;
     document.getElementById("computerField").appendChild(div);
-  }
+  };
 
   const backgroundColor = function (argPlayer, argComputer) {
     console.log(argPlayer);
@@ -53,7 +55,7 @@
     }
     player.classList.add(argPlayer);
     computer.classList.add(argComputer);
-  }
+  };
 
   const getMoveName = function (argMoveId) {
     if (argMoveId == 1) {
@@ -66,7 +68,7 @@
       printMessage("Nie znam ruchu o id " + argMoveId + ".");
       return "nieznany ruch";
     }
-  }
+  };
 
   const displayResult = function (argComputerMove, argPlayerMove) {
     if (
@@ -90,21 +92,21 @@
     } else {
       printMessage("Nieznany ruch, brak rozstrzygnięcia");
     }
-  }
+  };
 
   const userWins = function () {
     backgroundColor("winGreen", "loseRed");
     printResult(1, 0);
     playerResult++;
     finalResult(playerResult, computerResult);
-  }
+  };
 
   const computerWins = function () {
     backgroundColor("loseRed", "winGreen");
     printResult(0, 1);
     computerResult++;
     finalResult(playerResult, computerResult);
-  }
+  };
 
   const playGame = function (playerInput) {
     clearMessages();
@@ -124,12 +126,12 @@
     console.log("Gracz wpisał: " + playerInput);
 
     displayResult(computerMove, playerMove);
-  }
+  };
 
   const finalResult = function (finalPlayer, finalComputer) {
     console.log(finalPlayer);
     console.log(finalComputer);
     document.getElementById("player").innerHTML = finalPlayer;
     document.getElementById("computer").innerHTML = finalComputer;
-  }
+  };
 }
